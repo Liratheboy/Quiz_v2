@@ -28,6 +28,6 @@
 
 }
 
-.container_pergunta2{
+.container_pergunta2, .container_pergunta3, .container_pergunta4, .container_pergunta5, .container_pergunta6, .container_pergunta7,.container_pergunta8, .container_pergunta9, .container_pergunta10{
   display: none;
 }

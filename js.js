@@ -1,24 +1,88 @@
 const pergunta1 = document.getElementById('container_p1');
 const pergunta2 = document.getElementById('container_p2');
-
-let verificar;
-
-document.addEventListener("click", function(e){
-   verificar = e.target.className;
-});
-
+const pergunta3 = document.getElementById('container_p3');
+const pergunta4 = document.getElementById('container_p4');
+const pergunta5 = document.getElementById('container_p5');
+const pergunta6 = document.getElementById('container_p6');
+const pergunta7 = document.getElementById('container_p7');
+const pergunta8 = document.getElementById('container_p8');
+const pergunta9 = document.getElementById('container_p9');
+const pergunta10 = document.getElementById('container_p10');
 
 function mudarPergunta1(){  
 
-  console.log(verificar);
+  let altcerta = document.getElementsByClassName('alt4');
+
+  pergunta1.style.display = "none";
+  pergunta2.style.display = "block";
+}
+
+function mudarPergunta2(){  
 
   let altcerta = document.getElementsByClassName('alt4');
 
-  if(verificar.className == altcerta.className){
-    alert('alternatica correta!');
-  }
-  else {
-    alert('alternativa errada!');
-  }
+  pergunta2.style.display = "none";
+  pergunta3.style.display = "block";
+}
+
+function mudarPergunta3(){  
+
+  let altcerta = document.getElementsByClassName('alt4');
+
+  pergunta3.style.display = "none";
+  pergunta4.style.display = "block";
+}
+
+function mudarPergunta4(){  
+
+  let altcerta = document.getElementsByClassName('alt4');
+
+  pergunta4.style.display = "none";
+  pergunta5.style.display = "block";
+}
+
+function mudarPergunta5(){  
+
+  let altcerta = document.getElementsByClassName('alt4');
+
+  pergunta5.style.display = "none";
+  pergunta6.style.display = "block";
+}
+
+function mudarPergunta6(){  
+
+  let altcerta = document.getElementsByClassName('alt4');
+
+  pergunta6.style.display = "none";
+  pergunta7.style.display = "block";
+}
+
+function mudarPergunta7(){  
+
+  let altcerta = document.getElementsByClassName('alt4');
+
+  pergunta7.style.display = "none";
+  pergunta8.style.display = "block";
+}
+
+function mudarPergunta8(){  
+
+  let altcerta = document.getElementsByClassName('alt4');
+
+  pergunta8.style.display = "none";
+  pergunta9.style.display = "block";
+}
+
+function mudarPergunta9(){  
+
+  let altcerta = document.getElementsByClassName('alt4');
+
+  pergunta9.style.display = "none";
+  pergunta10.style.display = "block";
+}
+
+function mudarPergunta10(){  
+
+  let altcerta = document.getElementsByClassName('alt4');
 
 }
