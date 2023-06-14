@@ -14,9 +14,11 @@ function mudarPergunta1(){
 
   let altcerta = document.getElementsByClassName('alt4');
 
-  if(verificar.className == altcerta.className)
+  if(verificar.className == altcerta.className){
     alert('alternatica correta!');
-  else
+  }
+  else {
     alert('alternativa errada!');
+  }
 
 }
