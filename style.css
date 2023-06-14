@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+/*
+.container{
+  
+}
+*/
+
+.pergunta{
+  display: flex;
+
+}
+
+.alternativas{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  
+}
+
+.alt1, .alt2, .alt3, .alt4, .alt5{
+  width: 100%;
+ padding: 10px;
+}
+
+.container_pergunta2{
+  display: none;
+}
