@@ -9,9 +9,17 @@ const pergunta8 = document.getElementById('container_p8');
 const pergunta9 = document.getElementById('container_p9');
 const pergunta10 = document.getElementById('container_p10');
 
+let verificar;
+
+verificar = document.addEventListener('click', function(e){
+  verificar = e.target.innertext;
+})
+
+
 function mudarPergunta1(){  
 
   let altcerta = document.getElementsByClassName('alt4');
+  console.log(verificar);
 
   pergunta1.style.display = "none";
   pergunta2.style.display = "block";
