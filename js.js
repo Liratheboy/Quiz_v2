@@ -9,8 +9,14 @@ const pergunta8 = document.getElementById('container_p8');
 const pergunta9 = document.getElementById('container_p9');
 const pergunta10 = document.getElementById('container_p10');
 
+function altcerta() {
+  alert('Alternativa correta!')
+} 
+function alterrada(){
+  alert('Alternativa errada!')
+}
 
-function mudarPergunta1(verificar){  
+function mudarPergunta1(){  
 
   pergunta1.style.display = "none";
   pergunta2.style.display = "block";
