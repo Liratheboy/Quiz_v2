@@ -8,170 +8,184 @@
 </head>
 <body>
 
-  <div class="container_titulo">
-    <div class="titulo">
-      <h1>Quiz!</h1>
-    </div>
-  </div>
 
-  <div class="container_questao">
-    <div class="container_pergunta1 container" id="container_p1">
-      <div class="pergunta">
-        <h2 class="pergunta1">1) Para utilizamos a função srand(), precisamos incluir a biblioteca:</h2>
-      </div>
-      <div class="alternativas">
-        <p class="alt1" onclick="alterrada();mudarPergunta1()">a) include biblioteca.h</p>
-        <p class="alt2" onclick="alterrada();mudarPergunta1()">b) include math.h</p>
-        <p class="alt3" onclick="alterrada();mudarPergunta1()">c) include string.h</p>
-        <p class="alt4" onclick="altcerta();mudarPergunta1()">d) include time.h</p>
-        <p class="alt5" onclick="alterrada();mudarPergunta1()">e) include ctype.h</p>
+  <header class="header">
+    <div class="container_titulo">
+      <div class="titulo">
+        <h1>Quiz!</h1>
+        <h2>Programação</h2>
+        <h2>C/C++ - JS</h2>
       </div>
     </div>
-  </div>
+  </header>
 
-
-  <div class="container_questao">
-    <div class="container_pergunta2 container" id="container_p2">
-      <div class="pergunta">
-        <h2 class="pergunta2">2) Resumidamente, o que é uma função?</h2>
-      </div>
-      <div class="alternativas">
-        <p class="alt1" onclick="altcerta();mudarPergunta2()">a) Um bloco de código que executa algo</p>
-        <p class="alt2" onclick="alterrada();mudarPergunta2()">b) Uma biblioteca </p>
-        <p class="alt3" onclick="alterrada();mudarPergunta2()">c) Uma linguagem de programação</p>
-        <p class="alt4" onclick="alterrada();mudarPergunta2()">d) Um laço de repetição</p>
-        <p class="alt5" onclick="alterrada();mudarPergunta2()">Um tipo de variável</p>
-      </div>
-    </div>
-  </div>
-
-
-  <div class="container_questao">
-    <div class="container_pergunta3 container" id="container_p3">
-      <div class="pergunta">
-        <h2 class="pergunta3">3) Quantos espaços a seguinte matriz apresenta: int matriz[10][10]; ?</h2>
-      </div>  
-      <div class="alternativas">
-        <p class="alt1" onclick="altcerta();mudarPergunta3()">a) 100</p>
-        <p class="alt2" onclick="alterrada();mudarPergunta3()">b) 0 </p>
-        <p class="alt3" onclick="alterrada();mudarPergunta3()">c) 1000</p>
-        <p class="alt4" onclick="alterrada();mudarPergunta3()">d) 1</p>
-        <p class="alt5" onclick="alterrada();mudarPergunta3()">e) 10</p>
+  
+  <main class="main">
+    <div class="container_questao">
+      <div class="container_pergunta1 container" id="container_p1">
+        <div class="pergunta">
+          <h2 class="pergunta1">1) Para utilizamos a função srand(), precisamos incluir a biblioteca:</h2>
+        </div>
+        <div class="alternativas">
+          <p class="alt1" onclick="alterrada();mudarPergunta1()">a) include biblioteca.h</p>
+          <p class="alt2" onclick="alterrada();mudarPergunta1()">b) include math.h</p>
+          <p class="alt3" onclick="alterrada();mudarPergunta1()">c) include string.h</p>
+          <p class="alt4" onclick="altcerta();mudarPergunta1()">d) include time.h</p>
+          <p class="alt5" onclick="alterrada();mudarPergunta1()">e) include ctype.h</p>
+        </div>
       </div>
     </div>
-  </div>
 
 
-  <div class="container_questao">
-    <div class="container_pergunta4 container" id="container_p4">
-      <div class="pergunta">
-        <h2 class="pergunta4">4) Como podemos selecionar elementos por meio de classes e id´s respectivamente?</h2>
-      </div>
-      <div class="alternativas">
-        <p class="alt1" onclick="alterrada();mudarPergunta4()">a) "#" e "."</p>
-        <p class="alt2" onclick="alterrada();mudarPergunta4()">b) "#" e "*"</p>
-        <p class="alt3" onclick="altcerta();mudarPergunta4()">c) "." e "#"</p>
-        <p class="alt4" onclick="alterrada();mudarPergunta4()">d) "%" e "!"</p>
-        <p class="alt5" onclick="alterrada();mudarPergunta4()">e) "+" e "="</p>
-      </div>
-    </div>
-  </div>
-
-
-  <div class="container_questao"></div>
-    <div class="container_pergunta5 container" id="container_p5">
-      <div class="pergunta">
-        <h2 class="pergunta5">5) HTML é uma linguagem de ... ?</h2>
-      </div>
-      <div class="alternativas">
-        <p class="alt1" onclick="alterrada();mudarPergunta5()">a) Estilização</p>
-        <p class="alt2" onclick="altcerta();mudarPergunta5()">b) Marcação </p>
-        <p class="alt3" onclick="alterrada();mudarPergunta5()">c) Programação</p>
-        <p class="alt4" onclick="alterrada();mudarPergunta5()">d) Banco de Dados</p>
-        <p class="alt5" onclick="alterrada();mudarPergunta5()">e) Sinais</p>
+    <div class="container_questao">
+      <div class="container_pergunta2 container" id="container_p2">
+        <div class="pergunta">
+          <h2 class="pergunta2">2) Resumidamente, o que é uma função?</h2>
+        </div>
+        <div class="alternativas">
+          <p class="alt1" onclick="altcerta();mudarPergunta2()">a) Um bloco de código que executa algo</p>
+          <p class="alt2" onclick="alterrada();mudarPergunta2()">b) Uma biblioteca </p>
+          <p class="alt3" onclick="alterrada();mudarPergunta2()">c) Uma linguagem de programação</p>
+          <p class="alt4" onclick="alterrada();mudarPergunta2()">d) Um laço de repetição</p>
+          <p class="alt5" onclick="alterrada();mudarPergunta2()">Um tipo de variável</p>
+        </div>
       </div>
     </div>
-  </div>
 
 
-  <div class="container_questao">
-    <div class="container_pergunta6 container" id="container_p6">
-      <div class="pergunta">
-        <h2 class="pergunta6">6) No javascript, o que a função recebe entre os parênteses?</h2>
-      </div>
-      <div class="alternativas">
-        <p class="alt1" onclick="alterrada();mudarPergunta6()">a) Objetos</p>
-        <p class="alt2" onclick="alterrada();mudarPergunta6()">b) Paramêtros </p>
-        <p class="alt3" onclick="alterrada();mudarPergunta6()">c) Classes</p>
-        <p class="alt4" onclick="altcerta();mudarPergunta6()">d) Argumentos</p>
-        <p class="alt5" onclick="alterrada();mudarPergunta6()">e) Nada</p>
-      </div>
-    </div>
-  </div>
-
-
-  <div class="container_questao">
-    <div class="container_pergunta7 container" id="container_p7">
-      <div class="pergunta">
-        <h2 class="pergunta7">7) "For" é uma estrutura de repetição controlada por ?</h2>
-      </div>
-      <div class="alternativas">
-        <p class="alt1" onclick="alterrada();mudarPergunta7()">a) Variável</p>
-        <p class="alt2" onclick="altcerta();mudarPergunta7()">b) Contador </p>
-        <p class="alt3" onclick="alterrada();mudarPergunta7()">c) Indexador</p>
-        <p class="alt4" onclick="alterrada();mudarPergunta7()">d) Funções</p>
-        <p class="alt5" onclick="alterrada();mudarPergunta7()">e) Objetos</p>
+    <div class="container_questao">
+      <div class="container_pergunta3 container" id="container_p3">
+        <div class="pergunta">
+          <h2 class="pergunta3">3) Quantos espaços a seguinte matriz apresenta: int matriz[10][10]; ?</h2>
+        </div>  
+        <div class="alternativas">
+          <p class="alt1" onclick="altcerta();mudarPergunta3()">a) 100</p>
+          <p class="alt2" onclick="alterrada();mudarPergunta3()">b) 0 </p>
+          <p class="alt3" onclick="alterrada();mudarPergunta3()">c) 1000</p>
+          <p class="alt4" onclick="alterrada();mudarPergunta3()">d) 1</p>
+          <p class="alt5" onclick="alterrada();mudarPergunta3()">e) 10</p>
+        </div>
       </div>
     </div>
-  </div>
 
 
-  <div class="container_questao">
-    <div class="container_pergunta8 container" id="container_p8">
-      <div class="pergunta">
-        <h2 class="pergunta8">8) CSS é uma linguagem de ... </h2>
-      </div>
-      <div class="alternativas">
-        <p class="alt1" onclick="alterrada();mudarPergunta8()">a) Marcação</p>
-        <p class="alt2" onclick="alterrada();mudarPergunta8()">b) Programação </p>
-        <p class="alt3" onclick="alterrada();mudarPergunta8()">c) Amor</p>
-        <p class="alt4" onclick="alterrada();mudarPergunta8()">d) Banco de Dados</p>
-        <p class="alt5" onclick="altcerta();mudarPergunta8()">e) Estilização</p>
-      </div>
-    </div>
-  </div>
-
-
-  <div class="container_questao">
-    <div class="container_pergunta9 container" id="container_p9">
-      <div class="pergunta">
-        <h2 class="pergunta9">9) "Const" tem esse nome porque o valor atribuído é... </h2>
-      </div>
-      <div class="alternativas">
-        <p class="alt1" onclick="alterrada();mudarPergunta9()">a) Nulo</p>
-        <p class="alt2" onclick="alterrada();mudarPergunta9()">b) Variável </p>
-        <p class="alt3" onclick="altcerta();mudarPergunta9()">c) Constante</p>
-        <p class="alt4" onclick="alterrada();mudarPergunta9()">d) Zero</p>
-        <p class="alt5" onclick="alterrada();mudarPergunta9()">e) Nenhuma das alternativas</p>
+    <div class="container_questao">
+      <div class="container_pergunta4 container" id="container_p4">
+        <div class="pergunta">
+          <h2 class="pergunta4">4) Como podemos selecionar elementos por meio de classes e id´s respectivamente?</h2>
+        </div>
+        <div class="alternativas">
+          <p class="alt1" onclick="alterrada();mudarPergunta4()">a) "#" e "."</p>
+          <p class="alt2" onclick="alterrada();mudarPergunta4()">b) "#" e "*"</p>
+          <p class="alt3" onclick="altcerta();mudarPergunta4()">c) "." e "#"</p>
+          <p class="alt4" onclick="alterrada();mudarPergunta4()">d) "%" e "!"</p>
+          <p class="alt5" onclick="alterrada();mudarPergunta4()">e) "+" e "="</p>
+        </div>
       </div>
     </div>
-  </div>
 
 
-  <div class="container_questao">
-    <div class="container_pergunta10 container" id="container_p10">
-      <div class="pergunta">
-        <h2 class="pergunta10">10) O que o método "appendChild" faz? </h2>
-      </div>
-      <div class="alternativas">
-        <p class="alt1" onclick="alterrada();mudarPergunta10()">a) Remove o nó especifico</p>
-        <p class="alt2" onclick="altcerta();mudarPergunta10()">b) Adiciona um nó ao final da lista de filhos de um nó pai especificado. </p>
-        <p class="alt3" onclick="alterrada();mudarPergunta10()">c)  Cria uma função </p>
-        <p class="alt4" onclick="alterrada();mudarPergunta10()">d) Adiciona uma repetição</p>
-        <p class="alt5" onclick="alterrada();mudarPergunta10()">e) Nenhuma das alternativas</p>
+    <div class="container_questao"></div>
+      <div class="container_pergunta5 container" id="container_p5">
+        <div class="pergunta">
+          <h2 class="pergunta5">5) HTML é uma linguagem de ... ?</h2>
+        </div>
+        <div class="alternativas">
+          <p class="alt1" onclick="alterrada();mudarPergunta5()">a) Estilização</p>
+          <p class="alt2" onclick="altcerta();mudarPergunta5()">b) Marcação </p>
+          <p class="alt3" onclick="alterrada();mudarPergunta5()">c) Programação</p>
+          <p class="alt4" onclick="alterrada();mudarPergunta5()">d) Banco de Dados</p>
+          <p class="alt5" onclick="alterrada();mudarPergunta5()">e) Sinais</p>
+        </div>
       </div>
     </div>
-  </div>
+
+
+    <div class="container_questao">
+      <div class="container_pergunta6 container" id="container_p6">
+        <div class="pergunta">
+          <h2 class="pergunta6">6) No javascript, o que a função recebe entre os parênteses?</h2>
+        </div>
+        <div class="alternativas">
+          <p class="alt1" onclick="alterrada();mudarPergunta6()">a) Objetos</p>
+          <p class="alt2" onclick="alterrada();mudarPergunta6()">b) Paramêtros </p>
+          <p class="alt3" onclick="alterrada();mudarPergunta6()">c) Classes</p>
+          <p class="alt4" onclick="altcerta();mudarPergunta6()">d) Argumentos</p>
+          <p class="alt5" onclick="alterrada();mudarPergunta6()">e) Nada</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container_questao">
+      <div class="container_pergunta7 container" id="container_p7">
+        <div class="pergunta">
+          <h2 class="pergunta7">7) "For" é uma estrutura de repetição controlada por ?</h2>
+        </div>
+        <div class="alternativas">
+          <p class="alt1" onclick="alterrada();mudarPergunta7()">a) Variável</p>
+          <p class="alt2" onclick="altcerta();mudarPergunta7()">b) Contador </p>
+          <p class="alt3" onclick="alterrada();mudarPergunta7()">c) Indexador</p>
+          <p class="alt4" onclick="alterrada();mudarPergunta7()">d) Funções</p>
+          <p class="alt5" onclick="alterrada();mudarPergunta7()">e) Objetos</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container_questao">
+      <div class="container_pergunta8 container" id="container_p8">
+        <div class="pergunta">
+          <h2 class="pergunta8">8) CSS é uma linguagem de ... </h2>
+        </div>
+        <div class="alternativas">
+          <p class="alt1" onclick="alterrada();mudarPergunta8()">a) Marcação</p>
+          <p class="alt2" onclick="alterrada();mudarPergunta8()">b) Programação </p>
+          <p class="alt3" onclick="alterrada();mudarPergunta8()">c) Amor</p>
+          <p class="alt4" onclick="alterrada();mudarPergunta8()">d) Banco de Dados</p>
+          <p class="alt5" onclick="altcerta();mudarPergunta8()">e) Estilização</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container_questao">
+      <div class="container_pergunta9 container" id="container_p9">
+        <div class="pergunta">
+          <h2 class="pergunta9">9) "Const" tem esse nome porque o valor atribuído é... </h2>
+        </div>
+        <div class="alternativas">
+          <p class="alt1" onclick="alterrada();mudarPergunta9()">a) Nulo</p>
+          <p class="alt2" onclick="alterrada();mudarPergunta9()">b) Variável </p>
+          <p class="alt3" onclick="altcerta();mudarPergunta9()">c) Constante</p>
+          <p class="alt4" onclick="alterrada();mudarPergunta9()">d) Zero</p>
+          <p class="alt5" onclick="alterrada();mudarPergunta9()">e) Nenhuma das alternativas</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container_questao">
+      <div class="container_pergunta10 container" id="container_p10">
+        <div class="pergunta">
+          <h2 class="pergunta10">10) O que o método "appendChild" faz? </h2>
+        </div>
+        <div class="alternativas">
+          <p class="alt1" onclick="alterrada();mudarPergunta10()">a) Remove o nó especifico</p>
+          <p class="alt2" onclick="altcerta();mudarPergunta10()">b) Adiciona um nó ao final da lista de filhos de um nó pai especificado. </p>
+          <p class="alt3" onclick="alterrada();mudarPergunta10()">c)  Cria uma função </p>
+          <p class="alt4" onclick="alterrada();mudarPergunta10()">d) Adiciona uma repetição</p>
+          <p class="alt5" onclick="alterrada();mudarPergunta10()">e) Nenhuma das alternativas</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+  <footer class="footer">
+
+  </footer>
+
 
   <script src="js.js"></script>
 </body>
