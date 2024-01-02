@@ -9,7 +9,6 @@ body{
   
 }
 
-
 /* Definindo box sizing das sections*/
 .header, .main, .footer{
   box-sizing: border-box;
@@ -20,6 +19,12 @@ header{
   background-color: aliceblue;
   width: 100vw;
   height: 15vh;
+}
+
+.container_titulo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* Estilizando o MAIN*/
