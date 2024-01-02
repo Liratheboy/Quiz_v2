@@ -1,41 +1,52 @@
+/* Resentando margin e padding do nav */
 *{
   margin: 0;
   padding: 0;
 }
 
+/*Não sei ainda*/
 body{
-  background-color: black;
-}
-
-
-h1, h2, p{
-  color: white;
-}
-
-/*
-.container{
   
 }
-*/
+
+
+/* Definindo box sizing das sections*/
+.header, .main, .footer{
+  box-sizing: border-box;
+}
+
+/* Estilizando o HEADER*/
+header{
+  background-color: aliceblue;
+  width: 100vw;
+  height: 15vh;
+}
+
+/* Estilizando o MAIN*/
+main{
+  margin-top: 50px;
+}
 
 .pergunta{
   display: flex;
-
 }
 
 .alternativas{
   display: flex;
   flex-direction: column;
   gap: 5px;
-  
 }
 
 .alt1, .alt2, .alt3, .alt4, .alt5{
   width: 100%;
  padding: 10px;
-
 }
 
 .container_pergunta2, .container_pergunta3, .container_pergunta4, .container_pergunta5, .container_pergunta6, .container_pergunta7,.container_pergunta8, .container_pergunta9, .container_pergunta10{
   display: none;
+}
+
+/* Estilizando o footer */
+footer{
+
 }
