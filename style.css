@@ -27,6 +27,16 @@ header{
   align-items: center;
 }
 
+.content_header{
+  padding: 3px;
+  
+}
+
+/*Utilizar medida relativa*/
+.content_header:nth-child(3){
+  padding: 20px;
+}
+
 /* Estilizando o MAIN*/
 main{
   margin-top: 50px;
