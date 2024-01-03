@@ -6,7 +6,7 @@
 
 /*Não sei ainda*/
 body{
-  
+  overflow: hidden;
 }
 
 /* Definindo box sizing das sections*/
@@ -39,7 +39,14 @@ header{
 
 /* Estilizando o MAIN*/
 main{
-  margin-top: 50px;
+  background-color: darkgray;
+  padding-top: 50px;
+  width: 100vw;
+  height: 70vh;
+}
+
+.container_questao{
+  
 }
 
 .pergunta{
