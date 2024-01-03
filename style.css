@@ -39,6 +39,8 @@ header{
 
 /* Estilizando o MAIN*/
 main{
+  display: flex;
+  justify-content: center;
   background-color: darkgray;
   padding-top: 50px;
   width: 100vw;
@@ -46,16 +48,14 @@ main{
 }
 
 .container_questao{
-  
+
 }
 
 .pergunta{
-  display: flex;
+ 
 }
 
 .alternativas{
-  display: flex;
-  flex-direction: column;
   gap: 5px;
 }
 
