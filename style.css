@@ -55,6 +55,7 @@ main{
 }
 
 .alternativas{
+  font-size: 1.2rem;
   width: 50vw;
   margin: 0 auto;
   background-color: white;
@@ -64,7 +65,13 @@ main{
 }
 
 .alt1, .alt2, .alt3, .alt4, .alt5{
- padding: 10px;
+  background-color: aqua;
+  padding: 0.8rem;
+  border: 1px solid black;
+}
+
+.alt1, .alt2, .alt3, .alt4{
+  margin-bottom: 10px;
 }
 
 .container_pergunta2, .container_pergunta3, .container_pergunta4, .container_pergunta5, .container_pergunta6, .container_pergunta7,.container_pergunta8, .container_pergunta9, .container_pergunta10{
@@ -73,5 +80,5 @@ main{
 
 /* Estilizando o footer */
 footer{
-
+  
 }
