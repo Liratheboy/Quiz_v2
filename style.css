@@ -4,11 +4,6 @@
   padding: 0;
 }
 
-/*Não sei ainda*/
-body{
-  overflow: hidden;
-}
-
 /* Definindo box sizing das sections*/
 .header, .main, .footer{
   box-sizing: border-box;
@@ -80,5 +75,5 @@ main{
 
 /* Estilizando o footer */
 footer{
-  
+
 }
