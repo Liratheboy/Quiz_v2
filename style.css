@@ -47,12 +47,10 @@ main{
   height: 70vh;
 }
 
-.container_questao{
-
-}
-
-.pergunta{
- 
+.alternativas{
+  display: flex;
+  flex-direction: column;
+  
 }
 
 .alternativas{
