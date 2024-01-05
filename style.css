@@ -49,14 +49,19 @@ main{
 
 .pergunta{
   margin-bottom: 3vh;
+  text-align: center;
+}
+
+.container{
+
 }
 
 .alternativas{
-  width: auto;
+  width: 50vw;
   background-color: white;
   display: flex;
+  justify-content: center;
   flex-direction: column;
-  align-items: start;
 }
 
 .alt1, .alt2, .alt3, .alt4, .alt5{
