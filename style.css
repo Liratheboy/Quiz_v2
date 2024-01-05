@@ -53,7 +53,7 @@ main{
   font-size: 1.2rem;
   width: 50vw;
   margin: 0 auto;
-  background-color: white;
+  background-color: darkgray;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -63,6 +63,7 @@ main{
   background-color: aqua;
   padding: 0.8rem;
   border: 1px solid black;
+  cursor: pointer;
 }
 
 .alt1, .alt2, .alt3, .alt4{
