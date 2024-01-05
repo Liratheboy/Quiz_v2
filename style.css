@@ -47,18 +47,20 @@ main{
   height: 70vh;
 }
 
-.alternativas{
-  display: flex;
-  flex-direction: column;
-  
+.pergunta{
+  margin-bottom: 3vh;
 }
 
 .alternativas{
+  width: auto;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
   gap: 5px;
 }
 
 .alt1, .alt2, .alt3, .alt4, .alt5{
-  width: 100%;
  padding: 10px;
 }
 
