@@ -80,7 +80,21 @@ footer{
 }
 
 .imgs{
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.imgs_footer{
+  margin: 1rem 0.8rem 0 0.8rem;
+  width: 100px;
+  height: 100px;
+
+}
+
+.C_img{
+  padding-top: 0.5rem;
+  width: 95px;
+  height: 95px;
 }
 
 .icon{
@@ -100,12 +114,3 @@ footer{
   color: #171515;
 }
 
-.imgs_footer{
-  width: 100px;
-  height: 100px;
-}
-
-.C_img{
-  width: 90px;
-  height: 90px;
-}
