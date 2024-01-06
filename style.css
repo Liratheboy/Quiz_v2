@@ -26,7 +26,6 @@ header{
   padding: 3px;
 }
 
-/*Utilizar medida relativa*/
 .content_header:nth-child(3){
   padding: 20px;
 }
@@ -80,13 +79,14 @@ footer{
   width: 100vw;
 }
 
+.imgs{
+  margin: 0 auto;
+}
+
 .icon{
   
 }
 
-.imgs{
-  margin: 0 auto;
-}
 
 .icon_instagram{
   color: #cd486b;
@@ -103,4 +103,9 @@ footer{
 .imgs_footer{
   width: 100px;
   height: 100px;
+}
+
+.C_img{
+  width: 90px;
+  height: 90px;
 }
