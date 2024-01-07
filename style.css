@@ -30,8 +30,6 @@ header{
 }
 
 .container_contatos{
-  margin: 0;
-  padding: 0;
   display: flex;
 }
 
@@ -64,8 +62,8 @@ main{
 }
 
 .pergunta{
-  margin-bottom: 3vh;
   text-align: center;
+  margin-bottom: 1rem;
 }
 
 .alternativas{
@@ -75,6 +73,7 @@ main{
   display: flex;
   justify-content: center;
   flex-direction: column;
+  padding-bottom: 1.8rem;
 }
 
 .alt1, .alt2, .alt3, .alt4, .alt5{
