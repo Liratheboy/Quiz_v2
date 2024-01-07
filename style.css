@@ -1,13 +1,9 @@
-/* Resentando margin e padding do nav */
+/* Resetando configs*/
 *{
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
-}
-
-/* Definindo box sizing das sections*/
-.header, .main, .footer{
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 /* Estilizando o HEADER*/
@@ -41,6 +37,7 @@ header{
 
 .icon{
   font-size: 2rem;
+  padding: 0 10px 0 10px;
 }
 
 .icon_instagram{
@@ -62,17 +59,12 @@ main{
   justify-content: center;
   background-color: darkgray;
   padding-top: 50px;
-  width: 100vw;
   height: 70vh;
 }
 
 .pergunta{
   margin-bottom: 3vh;
   text-align: center;
-}
-
-.container{
-
 }
 
 .alternativas{
@@ -100,9 +92,6 @@ main{
 }
 
 /* Estilizando o footer */
-footer{
-
-}
 
 .imgs{
   display: flex;
