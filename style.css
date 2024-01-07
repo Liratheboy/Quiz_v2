@@ -12,8 +12,10 @@
 
 /* Estilizando o HEADER*/
 header{
+  display: flex;
+  justify-content: space-between;
   background-color: aliceblue;
-  width: 100vw;
+  width: 99vw;
 }
 
 .container_titulo{
@@ -29,6 +31,28 @@ header{
 .content_header:nth-child(3){
   padding: 20px;
 }
+
+.container_contatos{
+  display: flex;
+
+}
+
+.icon{
+  font-size: 2rem;
+}
+
+.icon_instagram{
+  color: #cd486b;
+}
+
+.icon_linkedin{
+  color:#0077b5;
+}
+
+.icon_github{
+  color: #171515;
+}
+
 
 /* Estilizando o MAIN*/
 main{
@@ -96,21 +120,3 @@ footer{
   width: 95px;
   height: 95px;
 }
-
-.icon{
-  
-}
-
-
-.icon_instagram{
-  color: #cd486b;
-}
-
-.icon_linkedin{
-  color:#0077b5;
-}
-
-.icon_github{
-  color: #171515;
-}
-
