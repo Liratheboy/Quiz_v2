@@ -6,5 +6,3 @@ Está segunda versão, botei como objetivo adicionar um css básico com layout, 
 
 Sendo o objetivo principal dessa versão uma estilização básica, o código Javascript não será alterado. 
 
-https://drive.google.com/file/d/13Imw5K9jkUOwVsYcndzfn-OuWRYBOWhX/view?usp=drivesdk
-
